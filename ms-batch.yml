@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ms-batch
+  datasource:
+    username: susaya
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 20000
+    url: jdbc:postgresql://localhos1t:5432/message
+    password: susaya
