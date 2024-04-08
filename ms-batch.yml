@@ -2,5 +2,5 @@ db:
   username: susaya
   maximum-pool-size: 5
   connection-timeout: 20000
-  url: jdbc:postgresql://localhost:5432/message
+  url: jdbc:postgresql://db-message:5432/message
   password: susaya
